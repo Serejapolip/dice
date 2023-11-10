@@ -1,0 +1,25 @@
+.Dice {
+    height: 100px;
+}
+
+.Dice__app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+.Dice__random {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.Dice_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
