@@ -1,5 +1,5 @@
 import "./Dice.css";
-export default function Dice({dices, dice__button}) {
+export default function Dice({diceRandom, dice__button}) {
 
 return (
 <div className="Dice__app">
@@ -16,4 +16,5 @@ return (
 </div>
 
 )
+
 }
