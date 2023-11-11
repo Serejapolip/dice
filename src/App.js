@@ -6,9 +6,8 @@ function App() {
 const [diceRandom, setDiceRandom] = useState();
   return (
         <Dice
-            diceRandom={diceRandom}
             dice__button={() => {
-                setDiceRandom(Math.floor(Math.random() * 6)+1);
+             setDiceRandom(Math.floor(Math.random() * 6)+1);
              }}
         />
   )
