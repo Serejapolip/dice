@@ -1,13 +1,13 @@
 import "./Dice.css";
 export default function Dice({dices, dice__button}) {
-const dice_random = Math.floor(Math.random() * 6)+1;
 
 return (
 <div className="Dice__app">
     <div className="Dice__random">
         <img
+            alt="Dice"
             className="Dice"
-            src={"/pics/dice"+dice_random+".png"}
+            src={"/pics/dice"+diceRandom+".png"}
         />
     </div>
     <div className="Dice__button">
